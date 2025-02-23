@@ -1,0 +1,168 @@
+{
+  "test_timestamp": "2025-02-23 09:19:25",
+  "total_cases": 10,
+  "successful_predictions": 1,
+  "failed_predictions": 0,
+  "results_by_disease": {
+    "Dementia": {
+      "total_cases": 2,
+      "successful_predictions": 0,
+      "predictions": [
+        {
+          "case": "case_1",
+          "expected_label": "Dementia",
+          "description": "Dementia patient showing progressive cognitive decline with memory loss. MMSE score: 22. Difficulties with daily activities and confusion about time and place.",
+          "api_response": {
+            "status_code": 200,
+            "response_time": 0.011977
+          },
+          "prediction": "Scoliosis",
+          "confidence": 0.5997850139245459,
+          "correct": false
+        },
+        {
+          "case": "case_2",
+          "expected_label": "Dementia",
+          "description": "this is a test description about Dementia",
+          "api_response": {
+            "status_code": 200,
+            "response_time": 0.008254
+          },
+          "prediction": "Scoliosis",
+          "confidence": 0.41447690068090626,
+          "correct": false
+        }
+      ]
+    },
+    "ALS": {
+      "total_cases": 2,
+      "successful_predictions": 0,
+      "predictions": [
+        {
+          "case": "case_1",
+          "expected_label": "ALS",
+          "description": "ALS Patient presents with progressive muscle weakness. FVC at 65% with declining respiratory function. ALSFRS-R score: 38.",
+          "api_response": {
+            "status_code": 200,
+            "response_time": 0.008047
+          },
+          "prediction": "Scoliosis",
+          "confidence": 0.5412767560366457,
+          "correct": false
+        },
+        {
+          "case": "case_2",
+          "expected_label": "ALS",
+          "description": "Bulbar onset ALS with respiratory complications. FVC measurements show decline. ALSFRS-R decreased from 42 to 35.",
+          "api_response": {
+            "status_code": 200,
+            "response_time": 0.007328
+          },
+          "prediction": "Scoliosis",
+          "confidence": 0.4250537074550734,
+          "correct": false
+        }
+      ]
+    },
+    "Obsessive Compulsive Disorder": {
+      "total_cases": 2,
+      "successful_predictions": 0,
+      "predictions": [
+        {
+          "case": "case_1",
+          "expected_label": "Obsessive Compulsive Disorder",
+          "description": "Obsessive Compulsive Disorder Patient exhibits ritualistic behaviors and intrusive thoughts. Y-BOCS score: 28. Significant impact on daily functioning.",
+          "api_response": {
+            "status_code": 200,
+            "response_time": 0.007891
+          },
+          "prediction": "ALS",
+          "confidence": 0.40142146837577897,
+          "correct": false
+        },
+        {
+          "case": "case_2",
+          "expected_label": "Obsessive Compulsive Disorder",
+          "description": "Severe Obsessive Compulsive Disorder symptoms with compulsive checking behavior. Y-BOCS assessment indicates severe symptoms at 26.",
+          "api_response": {
+            "status_code": 200,
+            "response_time": 0.008692
+          },
+          "prediction": "ALS",
+          "confidence": 0.4587611919567078,
+          "correct": false
+        }
+      ]
+    },
+    "Scoliosis": {
+      "total_cases": 2,
+      "successful_predictions": 1,
+      "predictions": [
+        {
+          "case": "case_1",
+          "expected_label": "Scoliosis",
+          "description": "Scoliosis adolescent with spinal curvature. Cobb angle measurement of 45 degrees. Surgical correction being considered.",
+          "api_response": {
+            "status_code": 200,
+            "response_time": 0.008448
+          },
+          "prediction": "ALS",
+          "confidence": 0.4667465492841612,
+          "correct": false
+        },
+        {
+          "case": "case_2",
+          "expected_label": "Scoliosis",
+          "description": "Scoliosis progressive thoracic curve with 38-degree Cobb angle. Brace treatment initiated.",
+          "api_response": {
+            "status_code": 200,
+            "response_time": 0.008523
+          },
+          "prediction": "Scoliosis",
+          "confidence": 0.3597108907710766,
+          "correct": true
+        }
+      ]
+    },
+    "Parkinson's Disease": {
+      "total_cases": 2,
+      "successful_predictions": 0,
+      "predictions": [
+        {
+          "case": "case_1",
+          "expected_label": "Parkinson's Disease",
+          "description": "Parkinson Patient presents with resting tremor and bradykinesia. UPDRS score: 45. Started on levodopa therapy.",
+          "api_response": {
+            "status_code": 200,
+            "response_time": 0.008585
+          },
+          "prediction": "Scoliosis",
+          "confidence": 0.3939954542947502,
+          "correct": false
+        },
+        {
+          "case": "case_2",
+          "expected_label": "Parkinson's Disease",
+          "description": "Progressive Parkinson symptoms with rigidity. Hoehn and Yahr stage 2. Motor symptoms predominant.",
+          "api_response": {
+            "status_code": 200,
+            "response_time": 0.008492
+          },
+          "prediction": "ALS",
+          "confidence": 0.31877438489497967,
+          "correct": false
+        }
+      ]
+    }
+  },
+  "summary": {
+    "accuracy_by_disease": {
+      "Dementia": 0.0,
+      "ALS": 0.0,
+      "Obsessive Compulsive Disorder": 0.0,
+      "Scoliosis": 0.5,
+      "Parkinson's Disease": 0.0
+    },
+    "overall_accuracy": 0.1
+  }
+}
