@@ -51,8 +51,8 @@ root/
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
-cd medical-trial-classification
+git clone [https://github.com/fesarikaya/MedicalTrialClassification]
+cd MedicalTrialClassification
 ```
 
 2. Run the environment setup:
