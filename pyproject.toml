@@ -1,0 +1,16 @@
+[tool.black]
+line-length = 88
+target-version = ['py312']
+include = '\.pyw?$'
+extend-exclude = '''
+# A regex preceded with ^/ will apply only to files and directories
+# in the root of the project.
+^/tests/data/
+'''
+force-exclude = '''
+\.ipynb$
+'''
+
+[tool.black.format]
+skip-string-normalization = false
+skip-magic-trailing-comma = false

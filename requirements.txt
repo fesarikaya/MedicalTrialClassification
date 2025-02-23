@@ -1,0 +1,36 @@
+# Core Dependencies
+Flask==3.0.2
+pandas==2.2.0
+numpy==1.26.3
+scikit-learn==1.4.0
+
+# NLP Libraries
+nltk==3.8.1
+scispacy
+spacy==3.7.2
+transformers==4.37.2
+https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_core_sci_md-0.5.1.tar.gz2
+
+# Testing
+pytest==8.0.0
+requests==2.31.0
+
+# Code Formatting
+black==24.1.1
+
+# Logging
+python-json-logger==2.0.7
+
+# Model Serialization
+joblib==1.3.2
+
+# Documentation
+sphinx==7.2.6
+sphinx-rtd-theme==2.0.0
+
+# Additional Dependencies
+tqdm==4.66.1  # For progress bars
+python-dotenv==1.0.1  # For environment variables
+click==8.1.7  # Required by Flask
+gensim==4.2.0  # Required by spacy
+
