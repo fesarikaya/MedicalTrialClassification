@@ -154,10 +154,6 @@ The project is currently incomplete due to deadline constraints. Key pending ite
 - Model optimization
 - Full system integration testing
 
-## License
-
-[License information to be added]
-
 ## Warning
 
 ⚠️ This system is currently in partial implementation status with known preprocessing issues affecting model performance. Use as an assistance tool only and verify all predictions manually.
